@@ -2,7 +2,7 @@ name: CondTGAN
 channels:
   - conda-forge
   - defaults
-dependencies:
+pip:
   - _pytorch_select=0.1=cpu_0
   - appnope=0.1.2=py37hecd8cb5_1001
   - argon2-cffi=21.3.0=pyhd3eb1b0_0
